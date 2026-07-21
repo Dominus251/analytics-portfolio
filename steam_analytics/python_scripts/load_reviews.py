@@ -1,3 +1,4 @@
+from pathlib import Path 
 import pandas as pd
 from sqlalchemy import create_engine
 import os
@@ -14,7 +15,8 @@ DB_PORT = os.getenv('DB_PORT')
 DB_NAME = os.getenv('DB_NAME')
 
 # Путь к вашему CSV-файлу (проверьте, что путь правильный)
-CSV_PATH = r'C:\Users\Admin\Desktop\Проект аналитика\Сырые данные\steam_dataset_2025_csv\reviews.csv'
+BASE_DIR = Path(__file__).resolve().parent
+CSV_PATH =BASE_DIR.parent / "Сырые данные" / "steam_dataset_2025_csv" / "reviews.csv"
 
 # Колонки, которые нам нужны (в точности как в заголовке CSV)
 expected_columns = [
