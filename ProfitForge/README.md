@@ -27,7 +27,7 @@ Profit Forge Online — это демонстрационный pet-проект
 
 ---
 # Техническое задание
-Дать бизнесу возможность в кратчайшие сроки проверить гипотезы о влиянии изменяемых параметров на колебания retention, дохода с пользователя, жизнеспобности продукта и прогноза на 12 месяцев вперёд. [Подробнее](Technical_Specification.md)
+Дать бизнесу возможность в кратчайшие сроки проверить гипотезы о влиянии изменяемых параметров на колебания retention, дохода с пользователя, жизнеспособности продукта и прогноза на 12 месяцев вперёд. [Подробнее](Technical_Specification.md)
 
 ---
 ## Ценность проекта
@@ -138,7 +138,7 @@ Profit Forge Online — это готовый инструмент для мод
 - игровые события;
 - настройка количества игроков;
 - изменение параметров удержания;
-- настройка распределение количества сессий среди пользователей;
+- настройка распределения количества сессий среди пользователей;
 - изменение стоимости подписок.
 
 ---
@@ -155,7 +155,7 @@ Profit Forge Online — это готовый инструмент для мод
 - Paying players
 - Active subscribers	
 - Total sub revenue	
-- Ttal purchase revenue	
+- Total purchase revenue	
 - Total items bought	
 - Cohort size	
 - Retention rate
@@ -219,11 +219,11 @@ AI применялся как инженерный инструмент для 
 ---
 
 # Демонстрация
-<video src="./Video/19-07-2026.mp4" controls="controls" width="100%">
+<video src="https://github.com/Dominus251/analytics-portfolio/raw/main/ProfitForge/Video/19-07-2026.mp4" controls="controls" width="100%">
   Ваш браузер не поддерживает встроенные видео.
 </video>
 
-[YouTube](https://youtu.be/NH6ciBgn-YA)
+[YouTube](https://www.youtube.com/watch?v=NH6ciBgn-YA&t=5s)
 
 
 ---
