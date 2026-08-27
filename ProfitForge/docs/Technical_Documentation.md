@@ -180,7 +180,7 @@ AI использовался преимущественно для ускоре
 | sessions.csv | Сессии |
 | marketing_spend.csv | Маркетинговые расходы |
 
-[Словарь по данным](/docs/Data_Dictionary.md)
+[Словарь по данным](./Data_Dictionary.md)
 
 ---    
 ## Основные возможности генератора
@@ -306,9 +306,9 @@ AI использовался преимущественно для ускоре
 ✔ Построение аналитической таблицы
 
 ---
-## ⚙️ ETL-обработка [(prepare_data.py)](/scripts/prepare_data.py)
+## ⚙️ ETL-обработка [(prepare_data.py)](/ProfitForge/scripts/prepare_data.py)
 
-Скрипт преобразует сырые CSV в когортную витрину [`cohort_data.csv`](/Showcase/cohort_data.csv) со следующими метриками:
+Скрипт преобразует сырые CSV в когортную витрину [`cohort_data.csv`](/ProfitForge/Showcase/cohort_data.csv) со следующими метриками:
 
 | Колонка | Описание |
 |---------|----------|
@@ -385,11 +385,11 @@ AI использовался преимущественно для ускоре
 | **Forecast** | Операционный прогноз на 1–12 месяцев. Показывает общую картину по продукту (игроки, выручка, прибыль), сделан отдельно для возможности масштабировани не меняя структуры `Scenatio`. |
 | **Dashboard** | Операционный дашборд с денежным потоком (выручка, OPEX, маркетинг, прибыль) по календарным месяцам и тепловым форматированием, сделан для быстрого взгляда на ключевые показатели. |
 
-Панель управления ![Inputs](/Screenshots_google/Imputs.png)
+Панель управления ![Inputs](/ProfitForge//Screenshots_google/Imputs.png)
 
-Тепловая карта ![Dashboard_temp](/Screenshots_google/Dashboard_temp.png)
+Тепловая карта ![Dashboard_temp](/ProfitForge//Screenshots_google/Dashboard_temp.png)
 
-Прогноз ![Forecast](/Screenshots_google/Forecast.png)
+Прогноз ![Forecast](/ProfitForge//Screenshots_google/Forecast.png)
 
 ---
 
@@ -792,9 +792,9 @@ Forecast представляет собой сценарную модель.
 - тепловые карты;
 - финансовые KPI.
 
-![screenshot](/Dashboard/Screenshots/Retention%20Cohorts.png)
+![screenshot](/ProfitForge//Dashboard/Screenshots/Retention%20Cohorts.png)
 
-![screenshot](/Dashboard/Screenshots/Product%20P&L.png)
+![screenshot](/ProfitForge//Dashboard/Screenshots/Product%20P&L.png)
 
 ---
 
@@ -838,11 +838,11 @@ Forecast представляет собой сценарную модель.
 ### Вариант 2. Полный цикл (с генерацией данных)
 Установить **python**:
 
-- pip install -r [requirements.txt](/requirements.txt)
+- pip install -r [requirements.txt](/ProfitForge//requirements.txt)
 
 Запустить интерактивную генерацию данных:
 
-- python [generate_dataset_interactive.py](/scripts/generate_dataset_interactive.py)
+- python [generate_dataset_interactive.py](/ProfitForge//scripts/generate_dataset_interactive.py)
 
 Запустить ETL-обработку:
 
@@ -879,9 +879,9 @@ Profit Forge Online демонстрирует полный цикл разра�
 
 [Модель Google Sheets](https://docs.google.com/spreadsheets/d/17o_fmwWzHe7tDJiDwIyj6BBZnzIDwwFmJjiMKmpBaXE/edit?usp=sharing)
 
-[Power BI Дашборд](/Dashboard/Dashboard.pbix)
+[Power BI Дашборд](/ProfitForge//Dashboard/Dashboard.pbix)
 
-[Коннектор](/connector/ProfitForge_Connector.xlsx)
+[Коннектор](/ProfitForge//connector/ProfitForge_Connector.xlsx)
 
 ### **Примечания**
 
