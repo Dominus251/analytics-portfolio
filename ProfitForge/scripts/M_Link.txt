@@ -1,0 +1,22 @@
+let
+    // 1. Берем таблицу настроек из предыдущего запроса
+    Source = GoogleConfig,
+    
+    // 2. Достаем чистый текст ссылки из ячейки
+    UserLink = Source{0}[Link],
+    
+    // 3. Отрезаем хвост "/edit..." и принудительно делаем ссылку на скачивание Excel
+    BaseUrl = Text.BeforeDelimiter(UserLink, "/edit"),
+    DownloadUrl = BaseUrl & "/export?format=xlsx",
+    
+    // 4. Подключаемся к этой ссылке как к веб-файлу Excel
+    ExcelFile = Excel.Workbook(Web.Contents(DownloadUrl), null, true),
+    
+    // 5. Забираем лист с именем "Scenario" из Google Таблицы
+    Scenario_Sheet = ExcelFile{[Item="Scenario",Kind="Sheet"]}[Data],
+    
+    // 6. Форматируем и чистим данные под вашу структуру
+    #"Повышенные заголовки" = Table.PromoteHeaders(Scenario_Sheet, [PromoteAllScalars=true]),
+    #"Измененный тип" = Table.TransformColumnTypes(#"Повышенные заголовки",{{"cohort_month", type date}, {" life_month", Int64.Type}, {"active_players", Int64.Type}, {"paying_players", Int64.Type}, {"active_subscribers", Int64.Type}, {" sub_revenue", Int64.Type}, {" purchase_revenue", type number}, {"total_cohort_revenue ", type number}, {"arpu", type number}, {"arppu", type number}, {"arppu_sub", type number}, {"cumulative_ltv", type number}, {"romi", type number}, {"payback_flag ", type logical}, {" items_bought", Int64.Type}, {" cohort_size", Int64.Type}, {" retention_rate", type number}, {"cac", type number}, {"monthly_opex", type number}, {"total_marketing_spend", Int64.Type}, {"total_cohort_cost", type number}, {"monthly_revenue", type number}, {"profit", type number}})
+in
+    #"Измененный тип"
