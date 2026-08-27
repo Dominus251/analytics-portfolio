@@ -14,7 +14,7 @@
    - Нажать на созданный запрос и выбрать **Расширенный редактор.**
    - Сотрите всё что там есть.
    - Скопируйте код ниже и вставьте его туда:
-   - [ExcelFile = Excel.Workbook(Web.Contents(DownloadUrl), null, true),](/scripts/M_Link.txt)
+   - [ExcelFile = Excel.Workbook(Web.Contents(DownloadUrl), null, true),](../scripts/M_Link.txt)
    - Внизу окна нажмите кнопку Готово (Done).
    - Нажмите кнопку Закрыть и применить (Close & Apply).
    - Окно редактора закроется, а данные загрузятся в саму модель Power BI.

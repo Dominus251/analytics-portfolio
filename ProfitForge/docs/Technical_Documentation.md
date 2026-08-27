@@ -306,9 +306,9 @@ AI использовался преимущественно для ускоре
 ✔ Построение аналитической таблицы
 
 ---
-## ⚙️ ETL-обработка [(prepare_data.py)](/scripts/prepare_data.py)
+## ⚙️ ETL-обработка [(prepare_data.py)](../scripts/prepare_data.py)
 
-Скрипт преобразует сырые CSV в когортную витрину [`cohort_data.csv`](/Showcase/cohort_data.csv) со следующими метриками:
+Скрипт преобразует сырые CSV в когортную витрину [`cohort_data.csv`](../Showcase/cohort_data.csv) со следующими метриками:
 
 | Колонка | Описание |
 |---------|----------|
@@ -387,13 +387,13 @@ AI использовался преимущественно для ускоре
 | **Dashboard** | Операционный дашборд с денежным потоком (выручка, OPEX, маркетинг, прибыль) по календарным месяцам и тепловым форматированием, сделан для быстрого взгляда на ключевые показатели. |
 ---
 Панель управления 
-![Inputs](/Screenshots_google/Imputs.png)
+![Inputs](../Screenshots_google/Imputs.png)
 
 Тепловая карта 
-![Dashboard_temp](/Screenshots_google/Dashboard_temp.png)
+![Dashboard_temp](../Screenshots_google/Dashboard_temp.png)
 
 Прогноз
- ![Forecast](/Screenshots_google/Forecast.png)
+![Forecast](../Screenshots_google/Forecast.png)
 
 ---
 
@@ -593,7 +593,7 @@ Power Query автоматически:
 
 После этого остаётся нажать только одну кнопку — **Обновить**.
 
-[Создание собственного коннектора](/docs/Create_connector.md)
+[Создание собственного коннектора](../docs/Create_connector.md)
 ---
 
 ## Используемые технологии
@@ -795,9 +795,9 @@ Forecast представляет собой сценарную модель.
 - тепловые карты;
 - финансовые KPI.
 
-![screenshot](/Dashboard/Screenshots/Retention%20Cohorts.png)
+![screenshot](../Dashboard/Screenshots/Retention%20Cohorts.png)
 
-![screenshot](/Dashboard/Screenshots/Product%20P&L.png)
+![screenshot](../Dashboard/Screenshots/Product%20P&L.png)
 
 ---
 
@@ -841,15 +841,15 @@ Forecast представляет собой сценарную модель.
 ### Вариант 2. Полный цикл (с генерацией данных)
 Установить **python**:
 
-- pip install -r [requirements.txt](/requirements.txt)
+- pip install -r [requirements.txt](../requirements.txt)
 
 Запустить интерактивную генерацию данных:
 
-- python [generate_dataset_interactive.py](/scripts/generate_dataset_interactive.py)
+- python [generate_dataset_interactive.py](../scripts/generate_dataset_interactive.py)
 
 Запустить ETL-обработку:
 
-- python [`prepare_data.py`](/scripts/prepare_data.py)
+- python [`prepare_data.py`](../scripts/prepare_data.py)
 - Импортировать `cohort_data.csv` в Google Sheets (лист `CohortData`)
 - Импортировать `marketing_spend.csv` в Google Sheets (лист `marketing_spend`)
 - Открыть `ProfitForge_Connector.xlsx` и вставить ссылку на таблицу
@@ -883,9 +883,9 @@ Profit Forge Online демонстрирует полный цикл разра�
 
 [Модель Google Sheets](https://docs.google.com/spreadsheets/d/17o_fmwWzHe7tDJiDwIyj6BBZnzIDwwFmJjiMKmpBaXE/edit?usp=sharing)
 
-[Power BI Дашборд](/Dashboard/Dashboard.pbix)
+[Power BI Дашборд](../Dashboard/Dashboard.pbix)
 
-[Коннектор](/connector/ProfitForge_Connector.xlsx)
+[Коннектор](../connector/ProfitForge_Connector.xlsx)
 
 ### **Примечания**
 
