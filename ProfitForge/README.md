@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/cd55215e-5a2d-4b4b-96c2-7edf90eb8ecb
+
 # Profit Forge Online
 
 > Аналитическая BI-система для моделирования юнит-экономики мобильной игры.
@@ -219,6 +223,9 @@ AI применялся как инженерный инструмент для 
 ---
 
 # Демонстрация
+
+https://github.com/user-attachments/assets/cd55215e-5a2d-4b4b-96c2-7edf90eb8ecb
+
 <video src="https://github.com/Dominus251/analytics-portfolio/raw/main/ProfitForge/Video/19-07-2026.mp4" controls="controls" width="100%">
   Ваш браузер не поддерживает встроенные видео.
 </video>
