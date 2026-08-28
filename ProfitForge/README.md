@@ -223,7 +223,7 @@ AI применялся как инженерный инструмент для 
   Ваш браузер не поддерживает встроенные видео.
 </video>
 
-[YouTube](https://www.youtube.com/watch?v=NH6ciBgn-YA&t=5s)
+[YouTube](https://www.youtube.com/watch?v=QepNNk0AC-M)
 
 
 ---
