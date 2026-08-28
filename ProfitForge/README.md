@@ -1,7 +1,3 @@
-
-
-https://github.com/user-attachments/assets/cd55215e-5a2d-4b4b-96c2-7edf90eb8ecb
-
 # Profit Forge Online
 
 > Аналитическая BI-система для моделирования юнит-экономики мобильной игры.
